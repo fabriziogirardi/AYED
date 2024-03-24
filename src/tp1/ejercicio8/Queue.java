@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Queue<T> extends Sequence
 {
-    List<T> data = new ArrayList<>();
+    protected List<T> data = new ArrayList<>();
 
     public Queue(){}
 

@@ -4,6 +4,6 @@ public class DoubleEndedQueue<T> extends Queue<T>
 {
     public void enqueueFirst(T dato)
     {
-        data.addFirst(dato);
+        super.data.addFirst(dato);
     }
 }
